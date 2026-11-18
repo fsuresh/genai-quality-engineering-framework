@@ -1,0 +1,24 @@
+
+[
+  {
+    "name": "Valid Python automation response",
+    "response": "Python is a programming language used for automation, artificial intelligence and testing.",
+    "expected_keywords": ["Python", "automation", "testing"],
+    "min_length": 20,
+    "expected_pass": true
+  },
+  {
+    "name": "Empty AI response",
+    "response": "",
+    "expected_keywords": [],
+    "min_length": 20,
+    "expected_pass": false
+  },
+  {
+    "name": "Missing expected keywords",
+    "response": "Python is a useful programming language.",
+    "expected_keywords": ["Python", "automation", "testing"],
+    "min_length": 20,
+    "expected_pass": false
+  }
+]
